@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        >
+
+
+
+    <jp.health_gate.DietDoctor.mypage.GraphView
+            android:id="@+id/graph_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            >
+        <Button
+                android:id="@+id/w1_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/term_w1"
+                />
+
+        <Button
+                android:id="@+id/m1_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/term_m1"
+                />
+        <Button
+                android:id="@+id/m3_button"
+                style="@style/selectButton"
+                android:background="@drawable/locked_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/term_m3"
+                />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/graph_fragment.xml -->

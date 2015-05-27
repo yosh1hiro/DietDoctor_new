@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/action_history_button"
+            style="@style/selectButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="@string/action_history"
+            />
+        <Button
+            android:id="@+id/information_analyse_button"
+            style="@style/selectButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="@string/information_analyse"
+            />
+        <Button
+            android:id="@+id/information_medal_library_button"
+            style="@style/selectButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="@string/information_medal_library"
+            />
+    </LinearLayout>
+
+</LinearLayout>

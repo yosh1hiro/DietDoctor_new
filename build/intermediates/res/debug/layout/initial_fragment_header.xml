@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/initial_titlebar"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/dummy_title"
+            android:textSize="8pt"
+            android:textColor="@color/initial_titlebar_text"
+            />
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/initial_fragment_header.xml -->

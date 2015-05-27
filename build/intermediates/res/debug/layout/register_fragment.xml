@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+    <include layout="@layout/initial_fragment_header"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                >
+
+            <TextView
+                    style="@style/tableDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_description1"
+                    />
+
+            <!-- ユーザ名 -->
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        style="@style/tableCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_name"
+                        />
+                <EditText
+                        android:id="@+id/edit_user_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="textPersonName"
+                        />
+            </TableRow>
+
+            <!-- パスワード -->
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        style="@style/tableCaption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/password"
+                        />
+                <EditText
+                        android:id="@+id/edit_password"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="textPassword"/>
+            </TableRow>
+
+
+            <!-- メールアドレス -->
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        style="@style/tableCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mail_address"
+                        />
+                <EditText
+                        android:id="@+id/edit_mail_address"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="textEmailAddress"/>
+            </TableRow>
+
+            <!-- 性別 -->
+            <TextView
+                    style="@style/tableDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_description3"
+                    />
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        style="@style/tableCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gender"
+                        />
+
+                <RadioGroup
+                    android:id="@+id/radio_gender"
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    >
+                    <RadioButton
+                        android:id="@+id/radio_male"
+                        style="@style/genderMale"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/male"
+                        android:checked="true"
+                        />
+                    <RadioButton
+                        android:id="@+id/radio_female"
+                        style="@style/genderFemale"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/female"
+                        />
+                </RadioGroup>
+            </TableRow>
+
+            <!-- 生年月日 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/tableCaption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/birthday"
+                    />
+                <EditText
+                    android:id="@+id/edit_birthday"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="date"/>
+            </TableRow>
+
+            <!-- 身長 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/tableCaption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/height"
+                    />
+                <EditText
+                    android:id="@+id/edit_height"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                        style="@style/tableCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cm"
+                        />
+            </TableRow>
+
+            <!-- 体重 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/tableCaption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weight"
+                    />
+                <EditText
+                    android:id="@+id/edit_initial_weight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    style="@style/tableCaption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kg"
+                    />
+            </TableRow>
+
+            <!-- 職業 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/tableCaption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/occupation"
+                    />
+                <Spinner
+                    android:id="@+id/edit_occupation"
+                    style="@style/ics_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+            </TableRow>
+
+            <!-- 運動習慣 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/tableCaption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exercising_custom"
+                    />
+                <Spinner
+                    android:id="@+id/edit_exercising_custom"
+                    style="@style/ics_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+            </TableRow>
+
+            <!-- 食事習慣 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/tableCaption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/meal_custom"
+                    />
+                <Spinner
+                    android:id="@+id/edit_meal_custom"
+                    style="@style/ics_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/standardButton"
+            android:id="@+id/prev_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="12dp"
+            android:text="@string/prev"
+            />
+
+        <Button
+            style="@style/standardButton"
+            android:id="@+id/next_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="12dp"
+            android:text="@string/register"
+            />
+
+    </LinearLayout>
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/register_fragment.xml -->

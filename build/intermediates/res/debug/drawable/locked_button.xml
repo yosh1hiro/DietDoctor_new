@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--押したとき-->
+    <item android:state_pressed="true" android:drawable="@drawable/locked_button_pressed"/>
+
+    <!-- 選択されていないとき-->
+    <item android:state_selected="false" android:drawable="@drawable/locked_button_unselected"/>
+
+    <!--通常の状態-->
+    <item android:drawable="@drawable/locked_button_normal"/>
+</selector><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/drawable/locked_button.xml -->

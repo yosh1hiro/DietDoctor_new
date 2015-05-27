@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <ImageView
+            android:id="@+id/medal_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/icon"
+            />
+    <TextView
+            android:id="@+id/medal_count"
+            style="@style/actionCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/dummy_achievement"
+            android:textColor="@color/bg_root"
+            />
+</RelativeLayout>
+
+<!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/medal_item.xml -->

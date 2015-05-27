@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_balloon_l"
+        android:padding="4dp"
+        >
+    <TextView
+            android:id="@+id/content_text"
+            style="@style/actionCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/dummy_counsel_user"
+            />
+    <TextView
+            android:id="@+id/datetime_text"
+            style="@style/actionCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="right"
+            android:padding="0dp"
+            android:text="@string/dummy_date"
+            android:textSize="4pt"
+            />
+</LinearLayout>

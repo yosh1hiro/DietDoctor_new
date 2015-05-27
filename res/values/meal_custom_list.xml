@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="meal_custom_list">
+        <item>食事に全く気を使っていない</item>
+        <item>食事に時々気を使っている</item>
+        <item>食事にほぼ毎回気を使っている</item>
+    </string-array>
+</resources>

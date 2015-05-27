@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_root"
+        >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <Button
+                android:id="@+id/effect_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/effectiveness"
+                />
+        <Button
+                android:id="@+id/pace_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/achievement_pace"
+                />
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/caption_text"
+            style="@style/headerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="@string/dummy_title"
+            />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="0dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="@color/bg_header"
+            >
+        <TextView
+                style="@style/headerCaption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/rank_order"
+                android:gravity="center"
+                />
+        <TextView
+                style="@style/headerCaption"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:text="@string/action_item"
+                android:gravity="center"
+                />
+        <TextView
+                style="@style/headerCaption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/level"
+                android:gravity="center"
+                />
+        <TextView
+                style="@style/headerCaption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:text="@string/action_title"
+                android:gravity="center"
+                />
+        <TextView
+                android:id="@+id/eval_unit_text"
+                style="@style/headerCaption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/kg"
+                android:gravity="center"
+                />
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/action_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="0dp"
+            >
+
+    </ListView>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <Button
+                android:id="@+id/yourself_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/you"
+                />
+
+        <Button
+                android:id="@+id/similar_button"
+                style="@style/selectButton"
+                android:background="@drawable/locked_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/similar"
+                />
+        <Button
+                android:id="@+id/average_button"
+                style="@style/selectButton"
+                android:background="@drawable/locked_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/average"
+                />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/analysis_fragment.xml -->

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_root"
+        >
+
+    <!-- 体重 -->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                style="@style/managementCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight"
+                />
+        <TextView
+                android:id="@+id/weight_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                />
+    </LinearLayout>
+
+    <!-- ☆数 -->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                style="@style/managementCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/star_count"
+                />
+        <TextView
+                android:id="@+id/star_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+                style="@style/managementCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/action"
+                />
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <ImageView
+                        android:id="@+id/action_icon_0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_loading_action"
+                        android:contentDescription="@string/icon"
+                        />
+                <TextView
+                        android:id="@+id/action_caption_0"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <ImageView
+                        android:id="@+id/action_icon_1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_loading_action"
+                        android:contentDescription="@string/icon"
+                        />
+                <TextView
+                        android:id="@+id/action_caption_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        />
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <ImageView
+                        android:id="@+id/action_icon_2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_loading_action"
+                        android:contentDescription="@string/icon"
+                        />
+                <TextView
+                        android:id="@+id/action_caption_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- メモ -->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <TextView
+                style="@style/managementCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memo"
+                />
+        <TextView
+                android:id="@+id/memo_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                />
+    </LinearLayout>
+
+
+</LinearLayout>

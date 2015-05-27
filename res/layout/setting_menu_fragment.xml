@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include layout="@layout/main_fragment_header"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            <Button
+                    android:id="@+id/preferences_button"
+                    style="@style/heightButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/information_preferences"
+                    />
+            <Button
+                    android:id="@+id/about_button"
+                    style="@style/heightButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/information_company_info"
+                    />
+            <Button
+                    android:id="@+id/agreement_button"
+                    style="@style/heightButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/information_terms_of_service"
+                    />
+            <Button
+                    android:id="@+id/privacy_policy_button"
+                    style="@style/heightButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/information_privacy_policy"
+                    />
+            <Button
+                    android:id="@+id/ad_pro_button"
+                    style="@style/highlightButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/upgrade_to_pro"
+                    />
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<include layout="@layout/main_fragment_footer"/>-->
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                >
+            <include layout="@layout/diet_action"/>
+        </FrameLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            <ImageView
+                    android:id="@+id/arrow_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_arrow_l"
+                    android:contentDescription="@string/prev"/>
+
+            <ImageView
+                    android:id="@+id/level_scene"
+                    android:layout_width="0dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/dummy_scene"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/scene"/>
+            <ImageView
+                    android:id="@+id/arrow_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_arrow_r"
+                    android:contentDescription="@string/next"/>
+
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/level_description"
+                style="@style/actionDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/introduction_title_0"
+                />
+    </LinearLayout>
+</ScrollView>

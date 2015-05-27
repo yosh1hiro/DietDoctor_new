@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_unit_id">ca-app-pub-7883298950393137/8124613609</string>
+    <!--<string name="license_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg1UkQOTPW59ZvDOquPQRtgpYoZp87Kv38q2WE1miF9ZR+me+9iRowuwPNufp0crnxC0Kq8SliNJFY3N2P8UecktV/vnijrC19pzdqBQ9n+fUurcCRXqkcLsex3gQAxchGiD8XLyE76BiMshQN8puHGeOEJbopf/cQ/WWMjawGsE+Ywo121m/3XZ2tIUNsXr33zPaTXJ3Ff7yPtJuPUl8GWflCKYpxuk4aYskWAC5wnUB2y7pmxBNHcedybjTaATETY3mk4d/W4GvHTvedtOJ2al58Cc4vFECLyrJVzCyZ2AL30dKj+0nqvPHTpxMfeFODfqQAI4dMtMkYUg4Nh+CdQIDAQAB</string>-->
+
+    <string name="company_url">http://diet-dr.net/</string>
+</resources>

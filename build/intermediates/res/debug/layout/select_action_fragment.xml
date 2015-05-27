@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_root"
+        >
+
+    <include layout="@layout/main_fragment_header"/>
+
+    <GridView
+            android:id="@+id/action_grid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:numColumns="4"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:background="@color/bg_root"
+            />
+
+    <!--<include layout="@layout/main_fragment_footer"/>-->
+
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/select_action_fragment.xml -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+    <corners
+        android:bottomRightRadius="6dp"
+        android:topRightRadius="6dp"
+        />
+    <stroke
+        android:color="#222222"
+        android:width="0.66dp"
+        />
+    <gradient
+        android:startColor="#FFA0C9"
+        android:endColor="#ED95BB"
+        android:angle="270"
+        />
+</shape>
+<!-- From: file:/Users/yoshihiro/DietDoctor_new/res/drawable/radiobutton_right_selected.xml -->

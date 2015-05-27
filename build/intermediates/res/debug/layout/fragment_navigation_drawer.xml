@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer_tabs"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/tab_mypage"
+        style="@style/footerItem"
+        android:src="@drawable/ic_history"
+        android:contentDescription="@string/history_title"/>
+
+    <ImageView
+        android:id="@+id/tab_message"
+        style="@style/footerItem"
+        android:src="@drawable/ic_management"
+        android:contentDescription="@string/message_title"/>
+    <ImageView
+        android:id="@+id/tab_record"
+        style="@style/footerItem"
+        android:src="@drawable/ic_record"
+        android:contentDescription="@string/record_title"/>
+
+    <ImageView
+        android:id="@+id/tab_contact"
+        style="@style/footerItem"
+        android:src="@drawable/ic_contact"
+        android:contentDescription="@string/contact_title"/>
+    <ImageView
+        android:id="@+id/tab_information"
+        style="@style/footerItem"
+        android:src="@drawable/ic_information"
+        android:contentDescription="@string/information_title"/>
+</LinearLayout>
+<!--
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:choiceMode="singleChoice"
+          android:divider="@android:color/transparent"
+          android:dividerHeight="0dp"
+          android:background="#cccc"
+          tools:context=".NavigationDrawerFragment" /> -->
+<!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/fragment_navigation_drawer.xml -->

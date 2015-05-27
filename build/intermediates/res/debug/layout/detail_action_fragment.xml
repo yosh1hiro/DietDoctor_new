@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_root"
+        >
+    <include layout="@layout/main_fragment_header"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                <ImageView
+                        android:id="@+id/action_icon"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        />
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        >
+
+                    <ImageView
+                            android:id="@+id/chart_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/dummy_chart"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="@string/chart_image"/>
+
+                    <!--ダイエット効果-->
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="center_horizontal"
+                            >
+                        <TextView
+                                style="@style/chartAxis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/chart_axis_0"
+                                />
+                        <TextView
+                                android:id="@+id/chart_value_0_text"
+                                style="@style/chartValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/dummy_chart_value"
+                                />
+                    </LinearLayout>
+                    <!--取り組みやすさ-->
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentBottom="true"
+                            >
+
+                        <TextView
+                                style="@style/chartAxis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/chart_axis_1"
+                                />
+                        <TextView
+                                android:id="@+id/chart_value_1_text"
+                                style="@style/chartValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/dummy_chart_value"
+                                />
+                    </LinearLayout>
+                    <!--健康度-->
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            >
+                        <TextView
+                                android:id="@+id/chart_value_2_text"
+                                style="@style/chartValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/dummy_chart_value"
+                                />
+                        <TextView
+                                style="@style/chartAxis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/chart_axis_2"
+                                />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/action_description"
+                    style="@style/actionDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/introduction_title_0"
+                    />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+            style="@style/standardButton"
+            android:id="@+id/select_action_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_this_action"
+            />
+    <!--<include layout="@layout/main_fragment_footer"/>-->
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/detail_action_fragment.xml -->

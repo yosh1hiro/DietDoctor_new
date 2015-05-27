@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/GoogleAdMobAdsSdk-6.4.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6262c554ef5744538d526465aa73704810705734">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.4.1-d6705e388879b5655feeb0462fe84ddda9feda04.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-6f6dfcfc2a612a8f27a65577ad1ed84e42fd50ae.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/classes-f02f3eb6441320efabb81fbcba5bef780b5337f9.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/kinvey-android-lib-2.6.14.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f4cdc2f4789c83664cca94db1ff36d30427531f9">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/kinvey-android-lib-2.6.14-f86d7dc4914454e55a053fb58920cce2b86e1fcc.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/google-http-client-1.16.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="28ed56f20e8a214ec05d190d6ec4b13656f332a7">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/google-http-client-1.16.0-rc-a5855ed2c495ebbd3e7daad8665f9f46a0ef14d0.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/google-http-client-gson-1.16.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="add707ba6551590fa7e140c74cae1c914a2906d2">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/google-http-client-gson-1.16.0-rc-ce2a858f096c52dddab2f30ba4e6223723c39b21.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-49ccda1b151cf596c177ef8af1ecd5c6899d8b26.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/gson-2.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/gson-2.1-b9bcb21561ad33ae891439403839e27e35cf65ee.jar" />
+    </item>
+    <item
+        jar="/Applications/android-sdk-macosx/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-d5a162117ad76f0cf51725b073726e4938300878.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/guava-14.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/guava-14.0.1-737b4f6bc8892927610a4dcbde8c99fc606a6c3f.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/android-support-v4-c5d58cb7f14276abc1cd5d39f7b70b2be0adf45f.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/google-http-client-android-1.16.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c2e8114029469943699b390ce14f6c0ff4565807">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/google-http-client-android-1.16.0-rc-412a2406a8169f74bc98b921a3fe077f2729a4b4.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/com.haarman.listviewanimations-2.5.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="61b94ed76a675ca3d6aa882e7d0a0fdc56a73cd2">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/com.haarman.listviewanimations-2.5.2-47796a7dd6f9526115161556131acd9db3385580.jar" />
+    </item>
+    <item
+        jar="/Users/yoshihiro/DietDoctor_new/libs/kinvey-java-2.6.14.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f2dc7df70efd8104c552ba7d7f447fbf052cc8c9">
+        <dex dex="/Users/yoshihiro/DietDoctor_new/build/intermediates/pre-dexed/debug/kinvey-java-2.6.14-c47662a182d64fc46de02ffcf74c7c71fd45b70d.jar" />
+    </item>
+
+</items>

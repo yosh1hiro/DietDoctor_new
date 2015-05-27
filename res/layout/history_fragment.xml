@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_root"
+    >
+    <include layout="@layout/main_fragment_header"/>
+
+    <include layout="@layout/mypage_top_button"/>
+
+
+    <LinearLayout
+        android:id="@+id/action_history"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/calendar_layout"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_gravity="center"-->
+    <!-->-->
+
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:padding="4dp"-->
+    <!-->-->
+    <!--<ImageView-->
+    <!--android:id="@+id/arrow_l"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:src="@drawable/ic_arrow_l"-->
+    <!--android:contentDescription="@string/prev"/>-->
+
+    <!--<jp.health_gate.DietDoctor.history.CalendarView-->
+    <!--android:id="@+id/calendar_view"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:id="@+id/arrow_r"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:src="@drawable/ic_arrow_r"-->
+    <!--android:contentDescription="@string/next"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/day_info_panel"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_marginTop="4dp"-->
+    <!--android:layout_marginBottom="4dp"-->
+    <!--android:background="@color/bg_root"-->
+    <!-->-->
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="2dp"-->
+    <!-->-->
+    <!--<TextView-->
+    <!--style="@style/headerText"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/weight"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/weight_text"-->
+    <!--style="@style/headerText"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/dummy_weight"-->
+    <!--android:textColor="@color/highlighted_text"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--style="@style/headerText"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/kg"-->
+    <!--/>-->
+    <!--<View-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--style="@style/headerText"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/achievement_star_caption"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/star_text"-->
+    <!--style="@style/headerText"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/dummy_star"-->
+    <!--android:textColor="@color/highlighted_text"-->
+    <!--/>-->
+
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="2dp"-->
+    <!-->-->
+    <!--<TextView-->
+    <!--style="@style/headerText"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/diet_action"-->
+    <!--/>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/medal_layout"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:layout_margin="0dp"-->
+    <!-->-->
+    <!--</LinearLayout>-->
+
+    <!--<Button android:id="@+id/memo_button"-->
+    <!--style="@style/standardButton"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:paddingTop="0dp"-->
+    <!--android:paddingLeft="4dp"-->
+    <!--android:paddingRight="4dp"-->
+    <!--android:paddingBottom="0dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/memo"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/graph_layout"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_gravity="center"-->
+    <!-->-->
+
+    <!--<jp.health_gate.DietDoctor.history.GraphView-->
+    <!--android:id="@+id/graph_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--/>-->
+
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!-->-->
+    <!--<Button-->
+    <!--android:id="@+id/w1_button"-->
+    <!--style="@style/selectButton"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="@string/term_w1"-->
+    <!--/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/m1_button"-->
+    <!--style="@style/selectButton"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="@string/term_m1"-->
+    <!--/>-->
+    <!--<Button-->
+    <!--android:id="@+id/m3_button"-->
+    <!--style="@style/selectButton"-->
+    <!--android:background="@drawable/locked_button"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="@string/term_m3"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+
+    <include layout="@layout/main_fragment_footer"/>
+
+
+</LinearLayout>

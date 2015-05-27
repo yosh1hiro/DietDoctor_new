@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clear">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gold">#e6b422</color>
+    <color name="silver">#8F9294</color>
+    <color name="bronze">#8C4841</color>
+
+    <color name="bg_root">#ffffff</color>
+    <color name="bg_header">#72bb30</color>
+    <color name="bg_caption">#72bb30</color>
+    <color name="bg_pressed">#adff66</color>
+    <color name="bg_selected">#8bd839</color>
+    <color name="bg_unselected">#9abf73</color>
+    <color name="bg_over">#0066ff</color>
+    <color name="bg_picked">#D5ECFF</color>
+    <color name="bg_go">#FFED55</color>
+    <color name="bg_upgrade">#FF892E</color>
+    <color name="bg_tutorial">#9EDCE8</color>
+
+    <color name="caption_text">#333333</color>
+    <color name="highlighted_text">#0033cc</color>
+    <color name="level_text">#ffff33</color>
+    <color name="chart_fill">#8ACAFF</color>
+    <color name="caution_text">#FF4756</color>
+    <color name="caution_hint">#66FF4756</color>
+    <color name="ranking_caption">#0033cc</color>
+
+    <color name="sunday_caption">#ee0000</color>
+    <color name="saturday_caption">#0000ff</color>
+    <color name="today_caption">#009900</color>
+    <color name="weight_mark">#aa0000</color>
+    <color name="star_mark">#e6b422</color>
+    <color name="memo_mark">#72bb30</color>
+
+    <color name="chart_weight">#0033ee</color>
+    <color name="chart_target">#00aa00</color>
+    <color name="chart_stars">#E68D3F</color>
+
+    <color name="initial_titlebar">#75a861</color>
+    <color name="initial_titlebar_text">#ffffff</color>
+</resources>

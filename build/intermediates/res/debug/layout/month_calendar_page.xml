@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:background="@color/bg_root"
+        >
+
+    <ImageView
+            android:id="@+id/arrow_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="0dp"
+            android:src="@drawable/ic_arrow_l"
+            android:contentDescription="@string/prev"/>
+
+    <jp.health_gate.DietDoctor.mypage.CalendarView
+            android:id="@+id/calendar_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    <ImageView
+            android:id="@+id/arrow_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="0dp"
+            android:src="@drawable/ic_arrow_r"
+            android:contentDescription="@string/next"/>
+
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/month_calendar_page.xml -->

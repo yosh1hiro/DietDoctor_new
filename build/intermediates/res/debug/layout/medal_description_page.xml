@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_root"
+        >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_header"
+            android:layout_margin="8dp"
+            >
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="2dp"
+                >
+
+            <TextView
+                    android:id="@+id/group_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dummy_level"
+                    android:textColor="@color/bg_root"
+                    />
+            <TextView
+                    android:id="@+id/star_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dummy_level"
+                    android:textColor="@color/bg_root"
+                    />
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/action_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dummy_level"
+                android:textColor="@color/bg_root"
+                android:paddingTop="2dp"
+                android:paddingLeft="8dp"
+                android:privateImeOptions="8dp"
+                android:paddingBottom="8dp"
+                />
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/medal_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/bg_header"
+            >
+        <TextView
+                android:id="@+id/medal_stage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dummy_level"
+                android:textColor="@color/bg_root"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="2dp"
+                />
+
+        <TextView
+                android:id="@+id/medal_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dummy_counsel_user"
+                android:textColor="@color/bg_root"
+                android:gravity="center_horizontal"
+                android:paddingTop="2dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/medal_description_page.xml -->

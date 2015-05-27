@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercising_custom_list">
+        <item>ほとんど運動しない</item>
+        <item>時々運動している</item>
+        <item>ほぼ毎日運動している</item>
+    </string-array>
+</resources>

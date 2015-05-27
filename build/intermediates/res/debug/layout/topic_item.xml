@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+                android:id="@+id/title_text"
+                style="@style/topicText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dummy_title"
+                android:textStyle="bold"
+                android:textSize="8pt"
+                />
+        <TextView
+                android:id="@+id/datetime_text"
+                style="@style/topicText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:text="@string/dummy_date"
+                android:textColor="@color/highlighted_text"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/content_text"
+                style="@style/topicText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dummy_welcome"
+                android:padding="8dp"
+                />
+        <TextView
+                android:id="@+id/remark_text"
+                style="@style/actionCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/answer_coming"
+                android:textSize="6pt"
+                android:textColor="@color/caution_text"
+                />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/topic_item.xml -->

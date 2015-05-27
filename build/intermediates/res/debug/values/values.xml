@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/exercising_custom_list.xml -->
+    <eat-comment/>
+    <string-array name="exercising_custom_list">
+        <item>ほとんど運動しない</item>
+        <item>時々運動している</item>
+        <item>ほぼ毎日運動している</item>
+    </string-array>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/meal_custom_list.xml -->
+    <eat-comment/>
+    <string-array name="meal_custom_list">
+        <item>食事に全く気を使っていない</item>
+        <item>食事に時々気を使っている</item>
+        <item>食事にほぼ毎回気を使っている</item>
+    </string-array>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/month_list.xml -->
+    <eat-comment/>
+    <string-array name="month_list">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/occupation_list.xml -->
+    <eat-comment/>
+    <string-array name="occupation_list">
+        <item>会社員（管理職）</item>
+        <item>会社員（総合職）</item>
+        <item>会社員（一般職）</item>
+        <item>派遣・アルバイト</item>
+        <item>学生</item>
+        <item>主婦・パート</item>
+        <item>その他</item>
+    </string-array>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bg_caption">#72bb30</color>
+    <color name="bg_go">#FFED55</color>
+    <color name="bg_header">#72bb30</color>
+    <color name="bg_over">#0066ff</color>
+    <color name="bg_picked">#D5ECFF</color>
+    <color name="bg_pressed">#adff66</color>
+    <color name="bg_root">#ffffff</color>
+    <color name="bg_selected">#8bd839</color>
+    <color name="bg_tutorial">#9EDCE8</color>
+    <color name="bg_unselected">#9abf73</color>
+    <color name="bg_upgrade">#FF892E</color>
+    <color name="bronze">#8C4841</color>
+    <color name="caption_text">#333333</color>
+    <color name="caution_hint">#66FF4756</color>
+    <color name="caution_text">#FF4756</color>
+    <color name="chart_fill">#8ACAFF</color>
+    <color name="chart_stars">#E68D3F</color>
+    <color name="chart_target">#00aa00</color>
+    <color name="chart_weight">#0033ee</color>
+    <color name="clear">#00000000</color>
+    <color name="gold">#e6b422</color>
+    <color name="highlighted_text">#0033cc</color>
+    <color name="initial_titlebar">#75a861</color>
+    <color name="initial_titlebar_text">#ffffff</color>
+    <color name="level_text">#ffff33</color>
+    <color name="memo_mark">#72bb30</color>
+    <color name="ranking_caption">#0033cc</color>
+    <color name="saturday_caption">#0000ff</color>
+    <color name="silver">#8F9294</color>
+    <color name="star_mark">#e6b422</color>
+    <color name="sunday_caption">#ee0000</color>
+    <color name="today_caption">#009900</color>
+    <color name="weight_mark">#aa0000</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="bg_tooltip_padding_bottom">10dp</dimen>
+    <dimen name="bg_tooltip_padding_left">5dp</dimen>
+    <dimen name="bg_tooltip_padding_right">5dp</dimen>
+    <dimen name="bg_tooltip_padding_top">4dp</dimen>
+    <dimen name="bg_tooltip_pointer_padding_bottom">8dp</dimen>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="animation_duration">200</integer>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="achievement">達成度</string>
+    <string name="achievement_all_star_caption">総獲得☆数</string>
+    <string name="achievement_comment">達成時コメント</string>
+    <string name="achievement_pace">達成ペース</string>
+    <string name="achievement_pace_caption">達成ペース</string>
+    <string name="achievement_pace_prefix">推奨ペース×</string>
+    <string name="achievement_pace_suffix">倍</string>
+    <string name="achievement_star_caption">獲得☆数</string>
+    <string name="achievement_title">目標達成状況</string>
+    <string name="achievement_weight_diff_caption">目標開始からの減量度</string>
+    <string name="action">行動</string>
+    <string name="action_history">行動履歴</string>
+    <string name="action_item">項目</string>
+    <string name="action_title">内容</string>
+    <string name="answer_coming">回答あり</string>
+    <string name="app_name">DietDoctor</string>
+    <string name="average">全体平均</string>
+    <string name="background">背景</string>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/ad_sku_strigns.xml -->
+    <eat-comment/>
+    <string name="banner_unit_id">ca-app-pub-7883298950393137/8124613609</string>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="birthday">生年月日</string>
+    <string name="bmi">BMI</string>
+    <string name="bronze">BRONZE</string>
+    <string name="bronze_medal">ブロンズ・メダル</string>
+    <string name="buy_ticket">チケットを買う</string>
+    <string name="calendar">カレンダー</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cannot_reset">リセット処理ができませんでした。しばらくしてから、もう一度試してみてください。</string>
+    <string name="categorized">項目別</string>
+    <string name="caution_ticket_0">相談を送信するために、チケットを１枚消費します。\nよろしいですか？</string>
+    <string name="caution_ticket_1">コメントを送信するために、チケットを１枚消費します。\nよろしいですか？</string>
+    <string name="change_action">項目を\n変える</string>
+    <string name="chart_axis_0">ダイエット効果</string>
+    <string name="chart_axis_1">取り組みやすさ</string>
+    <string name="chart_axis_2">健康度</string>
+    <string name="chart_image">レーダーチャート</string>
+    <string name="choose_this_action">この減量行動を見る</string>
+    <string name="choose_this_level">このレベルに設定する</string>
+    <string name="close">閉じる</string>
+    <string name="cm">cm</string>
+    <string name="come">※</string>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/ad_sku_strigns.xml -->
+    <eat-comment/>
+    <string name="company_url">http://diet-dr.net/</string>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="confirmation">確認</string>
+    <string name="consideration">注意事項</string>
+    <string name="consultation_Illness">相談(病気について)</string>
+    <string name="consultation_Illness_0">糖尿病</string>
+    <string name="consultation_Illness_1">高血圧</string>
+    <string name="consultation_Illness_2">高脂血症</string>
+    <string name="consultation_Illness_3">腎臓病</string>
+    <string name="consultation_Illness_4">心臓病</string>
+    <string name="consultation_category">相談項目</string>
+    <string name="consultation_content">相談内容</string>
+    <string name="consultation_drink">相談(飲酒について)</string>
+    <string name="consultation_drink_0">よく酒を飲む</string>
+    <string name="consultation_drink_1">あまり酒を飲まない</string>
+    <string name="consultation_exercise">相談(運動について)</string>
+    <string name="consultation_exercise_0">定期的に運動している</string>
+    <string name="consultation_exercise_1">少し運動している</string>
+    <string name="consultation_exercise_2">ほとんど運動していない</string>
+    <string name="consultation_meal">相談(食事について\n最も当てはまるものを選択)</string>
+    <string name="consultation_meal_0">油ものが好きだ</string>
+    <string name="consultation_meal_1">粉ものが好きだ</string>
+    <string name="consultation_meal_2">食事時間が不規則だ</string>
+    <string name="consultation_meal_3">食事はバランス良く食べられている</string>
+    <string name="consultation_reply_a">A.基礎情報</string>
+    <string name="consultation_reply_b">B.現在の習慣</string>
+    <string name="consultation_reply_c">C.DD実行状況</string>
+    <string name="consultation_reply_d">D.病気との関係</string>
+    <string name="consultation_reply_e">E.おススメDIET法</string>
+    <string name="consultation_snack">相談(間食について)</string>
+    <string name="consultation_snack_0">よく間食している</string>
+    <string name="consultation_snack_1">時々間食している</string>
+    <string name="consultation_snack_2">ほとんど間食しない</string>
+    <string name="consultation_subject">件名</string>
+    <string name="consultation_work">相談(仕事について)</string>
+    <string name="consultation_work_0">ほとんど残業している</string>
+    <string name="consultation_work_1">時々残業している</string>
+    <string name="consultation_work_2">仕事は定時に終わることが多い</string>
+    <string name="consulting">ドクターに\n相談する</string>
+    <string name="contact_title">DDクリニック</string>
+    <string name="counsel">相談</string>
+    <string name="diet_action">減量行動</string>
+    <string name="diet_action_1">減量行動 1</string>
+    <string name="diet_action_2">減量行動 2</string>
+    <string name="diet_action_3">減量行動 3</string>
+    <string name="diet_action_title">減量行動</string>
+    <string name="diet_purpose">減量の目的</string>
+    <string name="done">完了</string>
+    <string name="dummy_achievement">3</string>
+    <string name="dummy_ad">ダミー広告</string>
+    <string name="dummy_chart_value">3</string>
+    <string name="dummy_counsel_doctor">ドクターの返答</string>
+    <string name="dummy_counsel_user">ユーザの相談内容</string>
+    <string name="dummy_date">10/10(木)</string>
+    <string name="dummy_date2">10月10日(木) - 今日</string>
+    <string name="dummy_level">レベル.x</string>
+    <string name="dummy_purpose">100kg超えてると、いろいろあるよね。</string>
+    <string name="dummy_reply_a">基礎情報に基づく、ダイエットに関する回答。これは、自動的にきまるらしい。</string>
+    <string name="dummy_reply_b">現在の習慣に基づく、ダイエットに関する回答。これは、自動的にきまるらしい。</string>
+    <string name="dummy_reply_c">DD実行状況に基づく、ダイエットに関する回答。これは、自動的にきまるらしい。</string>
+    <string name="dummy_reply_d">病気との関係に基づく、ダイエットに関する回答。これは、ちゃんと書くらしい</string>
+    <string name="dummy_reply_e">おススメDIET法に関する回答。これは、自動的にきまるらしい。</string>
+    <string name="dummy_star">126</string>
+    <string name="dummy_stars">x3</string>
+    <string name="dummy_title">Title</string>
+    <string name="dummy_user_name">hogefuga</string>
+    <string name="dummy_weight">100</string>
+    <string name="dummy_weight_diff_1">-0.3</string>
+    <string name="dummy_weight_diff_2">3.2</string>
+    <string name="dummy_welcome">ようこそ！hogefugaさん。</string>
+    <string name="effectiveness">減量効果</string>
+    <string name="email_not_found">メールアドレスが登録されていません。</string>
+    <string name="entry_title">記録</string>
+    <string name="err_admin_username">admin.で始まるユーザ名は使用できません。</string>
+    <string name="err_cannot_sent_to_server">サーバに送信できませんでした。</string>
+    <string name="err_login">"ログインできません。ユーザ名/パスワードをご確認ください。\nあるいは、新規登録でユーザ登録してください。"</string>
+    <string name="err_no_comment">相談内容を記入してください。</string>
+    <string name="err_non_anamnesis">問診票に記入してください。</string>
+    <string name="err_register">登録できませんでした。\nユーザ名が既に使用されているのかもしれません。</string>
+    <string name="exercising">運動</string>
+    <string name="exercising_custom">運動習慣</string>
+    <string name="exercising_vertical">運\n動</string>
+    <string name="female">女</string>
+    <string name="gender">性別</string>
+    <string name="go">Go ▶</string>
+    <string name="goal_title">目標設定</string>
+    <string name="gold">GOLD</string>
+    <string name="gold_medal">ゴールド・メダル</string>
+    <string name="got_medal">メダル獲得</string>
+    <string name="graph">グラフ</string>
+    <string name="height">身長</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_target_weight">目標体重を入力</string>
+    <string name="hint_weight">今日の体重を入力</string>
+    <string name="history">履歴</string>
+    <string name="history_title">MyPage</string>
+    <string name="icon">アイコン</string>
+    <string name="information_analyse">ダイエット分析</string>
+    <string name="information_company_info">会社情報</string>
+    <string name="information_diet_news">ダイエット通信</string>
+    <string name="information_medal_library">メダルライブラリ</string>
+    <string name="information_preferences">ユーザ情報変更</string>
+    <string name="information_privacy_policy">プライバシーポリシー</string>
+    <string name="information_ranking">ランキング</string>
+    <string name="information_setting">ヘルプ・設定</string>
+    <string name="information_terms_of_service">利用規約</string>
+    <string name="information_title">情報</string>
+    <string name="initial_weight">体重初期値</string>
+    <string name="introduction_title_0">「ダイエット・ドクター」のダイエット法</string>
+    <string name="introduction_title_1">「ダイエット・ドクター」にようこそ！</string>
+    <string name="kg">kg</string>
+    <string name="level">レベル</string>
+    <string name="level_prefix">レベル.</string>
+    <string name="level_tips_suffix">のTips</string>
+    <string name="list">一覧</string>
+    <string name="login">ログイン</string>
+    <string name="login_description1">既に、このサービスを利用している方は、登録しているユーザ名とパスワードでログインしてください。</string>
+    <string name="login_description2">初めての方は、新規登録でユーザ情報を登録してください。</string>
+    <string name="login_title">ログイン</string>
+    <string name="logout">ログアウト</string>
+    <string name="mail_address">メールアドレス</string>
+    <string name="male">男</string>
+    <string name="master">MASTER</string>
+    <string name="master_medal">マスター・メダル</string>
+    <string name="meal">食事</string>
+    <string name="meal_custom">食事習慣</string>
+    <string name="meal_vertical">食\n事</string>
+    <string name="medal">メダル</string>
+    <string name="memo">メモ</string>
+    <string name="message_title">DietNews</string>
+    <string name="msg_level10">すでに、最高レベルを達成しています。</string>
+    <string name="msg_new_tips">今の内容は、ダイエット通信に記事として追加されました。</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="new_account">新規登録</string>
+    <string name="news">New</string>
+    <string name="next">次へ</string>
+    <string name="next_level">次のレベルに\n挑戦</string>
+    <string name="non_category">その他</string>
+    <string name="not_doing">未完</string>
+    <string name="notification_no_action">今日はまだ、チャレンジ項目を実行したことを記録していません。少しずつでも実践していきましょう。</string>
+    <string name="notification_no_weight">今日はまだ、体重を記録していません。是非、毎日、体重を記録する習慣をつけましょう。</string>
+    <string name="notification_no_weight_action">今日はまだ、体重を記録していません。是非、毎日、体重を記録する習慣をつけましょう。</string>
+    <string name="num_tickets_prefix">チケット残数</string>
+    <string name="num_tickets_suffix">枚</string>
+    <string name="occupation">職業</string>
+    <string name="ok">OK</string>
+    <string name="password">パスワード</string>
+    <string name="percent">%</string>
+    <string name="prev">戻る</string>
+    <string name="purchase">購入</string>
+    <string name="qualification">        本アプリケーションはダイエット行動の促進とダイエットを中心とする健康情報の提供を目的としており、診療行為又はこれに準ずる行為を目的として利用することはできません。\nお客様はこのことを十分認識した上で自己の責任において本アプリケーションを利用し、必要ならば適切な医療機関の受診等、自身の判断で行ってください。</string>
+    <string name="rank_order">順位</string>
+    <string name="rank_point_bmi">BMI</string>
+    <string name="rank_point_prefix">%1$sさんの%2$sは、現在</string>
+    <string name="rank_point_rate">減量度</string>
+    <string name="rank_point_star">獲得☆数</string>
+    <string name="rank_point_suffix">です。</string>
+    <string name="ranking">ランキング</string>
+    <string name="ranking_prefix">ランキングは、現在</string>
+    <string name="ranking_suffix">位です。(%1$d人中)</string>
+    <string name="record_title">記録</string>
+    <string name="register">登録</string>
+    <string name="register_description1">希望するユーザ名とパスワードとメールアドレスは必須項目です。</string>
+    <string name="register_description3">以下の情報は、ドクターからのアドバイスをする際に使用する基礎情報です。</string>
+    <string name="register_title">ユーザ情報登録</string>
+    <string name="reminder_intent_host">DietDoctor.health_gate.jp</string>
+    <string name="reminder_intent_path">/</string>
+    <string name="reminder_intent_scheme">dietdoctor</string>
+    <string name="require_consulting">相談をする</string>
+    <string name="reset_mail_send">リセット用のURLを含んだメールを送信しますので、しばらくしたら、確認してください。</string>
+    <string name="reset_password">パスワードを忘れてしまった場合は、ここをタップしてリセットしてください。\n登録されているメールアドレスに、リセット用のURLなどの情報が送られます。</string>
+    <string name="scene">シーン</string>
+    <string name="search">検索</string>
+    <string name="select">選択</string>
+    <string name="select_level_title">挑戦するレベル</string>
+    <string name="send">送信</string>
+    <string name="send_failed">送信に失敗しました。</string>
+    <string name="send_successfully">送信しました。</string>
+    <string name="sent_to_server">サーバに送信しました。</string>
+    <string name="show_responses">回答を見る</string>
+    <string name="silver">SILVER</string>
+    <string name="silver_medal">シルバー・メダル</string>
+    <string name="similar">似ている人</string>
+    <string name="star">スター</string>
+    <string name="star_count">☆数</string>
+    <string name="star_prefix">x</string>
+    <string name="start">スタート</string>
+    <string name="target_weight">目標体重</string>
+    <string name="term_m1">1ヶ月</string>
+    <string name="term_m3">3ヶ月</string>
+    <string name="term_w1">1週間</string>
+    <string name="ticket_caption_1">相談チケット × 1枚</string>
+    <string name="ticket_caption_10">相談チケット × 10枚</string>
+    <string name="ticket_caption_30">相談チケット × 30枚</string>
+    <string name="ticket_caption_5">相談チケット × 5枚</string>
+    <string name="ticket_caption_50">相談チケット × 50枚</string>
+    <string name="ticket_description_1">相談の回答は、約一日で参ります。登録情報、相談内容に基づいて医師が回答します。</string>
+    <string name="ticket_description_2">原則、一回の相談で、相談内容は一つとして下さい。複数の相談をされた場合、全てにはお答えしかねる場合がありますのでご了承下さい。</string>
+    <string name="ticket_description_3">一枚チケットの相談につき最大3往復まで医師とやりとりができます。</string>
+    <string name="ticket_price">価格</string>
+    <string name="ticket_price_1">¥500</string>
+    <string name="ticket_price_10">¥5000</string>
+    <string name="ticket_price_30">¥10000</string>
+    <string name="ticket_price_5">¥2000</string>
+    <string name="ticket_price_50">¥20000</string>
+    <string name="ticket_title">相談チケット</string>
+    <string name="times">倍</string>
+    <string name="title_section1">MyPage</string>
+    <string name="title_section2">Message</string>
+    <string name="title_section3">Record</string>
+    <string name="title_section4">Contact</string>
+    <string name="title_section5">Infomation</string>
+    <string name="tutorial_decide_action">チャレンジするダイエット法が決まったら、「この減量行動を見る」をタッチします。</string>
+    <string name="tutorial_decide_level">チャレンジするレベルが決まったら、「このレベル に設定する」をタッチします。</string>
+    <string name="tutorial_goal">次に、ダイエットのゴールとなる目標体重を入 力してみましょう。</string>
+    <string name="tutorial_purpose">ダイエットを始めるにあたって、減量の目的、目標体重、減量行動の3つを設定します。 まず、減量の目的を入力しましょう。</string>
+    <string name="tutorial_select_action">医師監修のダイエット法が描かれたメダルをタッチしてチャレンジするダイエット法を選択します。</string>
+    <string name="tutorial_select_level">チャレンジするレベルを変更する時は左右の三角をタッチします。</string>
+    <string name="tutorial_set_action">最後に、減量行動を1つ入力してみましょう。減量行動は3つまで設定することができます。</string>
+    <string name="tutorial_set_level">最後にチャレンジするダイエット法のレベルを選択します。☆はダイエット効果を表しています。</string>
+    <string name="unread">未読</string>
+    <string name="update">更新</string>
+    <string name="upgrade">プロ版について</string>
+    <string name="upgrade_to_pro">プロ版にアップグレード</string>
+    <string name="user_exist">ユーザ名(%1s)はすでに使用されています。</string>
+    <string name="user_name">ユーザ名</string>
+    <string name="weight">体重</string>
+    <string name="weight_diff">減量度</string>
+    <string name="weight_diff_1">(先週</string>
+    <string name="weight_diff_2">kg, 目標まで</string>
+    <string name="weight_diff_3">kg)</string>
+    <string name="weight_of_today">今日の体重</string>
+    <string name="welcome_prefix">ようこそ！</string>
+    <string name="welcome_suffix">さん。</string>
+    <string name="welcome_title">ようこそ！</string>
+    <string name="you">あなた</string>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Animation" parent="android:Animation"/>
+    <style name="Animation.Activity" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+    </style>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+    </style>
+    <!-- From: file:/Users/yoshihiro/DietDoctor_new/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="achievementValue">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/highlighted_text</item>
+    </style>
+    <style name="actionCaption">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">6pt</item>
+        <item name="android:textColor">@color/caption_text</item>
+    </style>
+    <style name="actionDescription">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/caption_text</item>
+    </style>
+    <style name="actionIcon">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">6pt</item>
+        <item name="android:textColor">@color/caption_text</item>
+        <item name="android:drawableTop">@drawable/ic_loading_action</item>
+    </style>
+    <style name="actionIconLarge">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/caption_text</item>
+        <item name="android:drawableTop">@drawable/ic_loading_action</item>
+    </style>
+    <style name="actionLevel">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">6pt</item>
+        <item name="android:textColor">@color/level_text</item>
+    </style>
+    <style name="actionStar">
+        <item name="android:padding">2dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">6pt</item>
+        <item name="android:textColor">@color/level_text</item>
+    </style>
+    <style name="actionText">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/caption_text</item>
+        <item name="android:background">@color/bg_root</item>
+    </style>
+    <style name="chartAxis">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">4pt</item>
+        <item name="android:textColor">@color/caption_text</item>
+    </style>
+    <style name="chartValue">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">6pt</item>
+        <item name="android:textColor">@color/highlighted_text</item>
+    </style>
+    <style name="consultationCheckBox">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/caption_text</item>
+    </style>
+    <style name="consultationRadioButton">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/caption_text</item>
+    </style>
+    <style name="footerItem">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="gender">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="genderFemale" parent="gender">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:background">@drawable/radiobutton_right</item>
+    </style>
+    <style name="genderMale" parent="gender">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:background">@drawable/radiobutton_left</item>
+    </style>
+    <style name="headerCaption" parent="headerText">
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@color/bg_header</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="headerItem" parent="headerText">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+    <style name="headerText" parent="@android:style/TextAppearance">
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">6pt</item>
+    </style>
+    <style name="heightButton" parent="standardButton">
+        <item name="android:background">@drawable/height_button</item>
+    </style>
+    <style name="highlightButton" parent="standardButton">
+        <item name="android:background">@drawable/highlight_button</item>
+    </style>
+    <style name="ics_spinner" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/bg_ics_spinner</item>
+    </style>
+    <style name="managementCaption">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/bg_caption</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+    <style name="rangingCaption" parent="actionCaption">
+        <item name="android:textSize">12pt</item>
+        <item name="android:textColor">@color/ranking_caption</item>
+    </style>
+    <style name="selectButton">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/select_button</item>
+    </style>
+    <style name="standardButton">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/standard_button</item>
+    </style>
+    <style name="tableCaption" parent="@android:style/TextAppearance.Medium">
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+        <item name="android:textColor">@color/caption_text</item>
+    </style>
+    <style name="tableDescription" parent="@android:style/TextAppearance">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">#C3E6C5</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">6pt</item>
+    </style>
+    <style name="topicText">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">6pt</item>
+        <item name="android:textColor">@color/caption_text</item>
+    </style>
+</resources>

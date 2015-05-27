@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="occupation_list">
+        <item>会社員（管理職）</item>
+        <item>会社員（総合職）</item>
+        <item>会社員（一般職）</item>
+        <item>派遣・アルバイト</item>
+        <item>学生</item>
+        <item>主婦・パート</item>
+        <item>その他</item>
+    </string-array>
+</resources>

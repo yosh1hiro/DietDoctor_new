@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_root"
+        >
+
+    <include layout="@layout/main_fragment_header"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            <!-- 目的 -->
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        style="@style/managementCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/diet_purpose"
+                        />
+                <EditText
+                        android:id="@+id/edit_diet_purpose"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginRight="8dp"
+                        android:lines="3"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"/>
+            </TableRow>
+            <!-- 体重 -->
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        style="@style/managementCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/target_weight"
+                        />
+                <EditText
+                        android:id="@+id/edit_target_weight"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
+                        android:hint="@string/hint_target_weight"
+                        android:textColorHint="@color/caution_text"
+                        />
+                <TextView
+                        style="@style/topicText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:padding="8dp"
+                        android:text="@string/kg"
+                        />
+            </TableRow>
+            <!-- 行動1 -->
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        style="@style/managementCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/diet_action_1"
+                        />
+                <FrameLayout
+                        android:id="@+id/diet_action_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="4dp"
+                        >
+                    <include layout="@layout/diet_action"/>
+                </FrameLayout>
+                <Button
+                        style="@style/standardButton"
+                        android:id="@+id/diet_action_button_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/select"
+                        />
+            </TableRow>
+            <!-- 行動2 -->
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        style="@style/managementCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/diet_action_2"
+                        />
+                <FrameLayout
+                        android:id="@+id/diet_action_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="4dp"
+                        >
+                    <include layout="@layout/diet_action"/>
+                </FrameLayout>
+                <Button
+                        style="@style/standardButton"
+                        android:id="@+id/diet_action_button_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/select"
+                        />
+            </TableRow>
+            <!-- 行動3 -->
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        style="@style/managementCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/diet_action_3"
+                        />
+                <FrameLayout
+                        android:id="@+id/diet_action_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="4dp"
+                        >
+                    <include layout="@layout/diet_action"/>
+                </FrameLayout>
+                <Button
+                        style="@style/standardButton"
+                        android:id="@+id/diet_action_button_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/select"
+                        />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <include layout="@layout/main_fragment_footer"/>
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/goal_fragment.xml -->

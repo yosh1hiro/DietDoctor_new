@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_root"
+        >
+    <include layout="@layout/main_fragment_header"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            <!-- A.基礎情報 -->
+            <TextView
+                    android:id="@+id/caption_a"
+                    style="@style/headerCaption"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/consultation_reply_a"
+                    />
+            <LinearLayout
+                    android:id="@+id/consultation_reply_a_panel"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    >
+                <ImageView
+                        android:id="@+id/consultation_reply_a_scene"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:src="@drawable/dummy_scene"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="@string/scene"/>
+
+                <TextView
+                        android:id="@+id/consultation_reply_a"
+                        style="@style/headerText"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dummy_reply_a"
+                        />
+            </LinearLayout>
+
+            <!-- B.現在の習慣 -->
+            <TextView
+                    android:id="@+id/caption_b"
+                    style="@style/headerCaption"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/consultation_reply_b"
+                    />
+            <LinearLayout
+                    android:id="@+id/consultation_reply_b_panel"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    >
+                <ImageView
+                        android:id="@+id/consultation_reply_b_scene"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:src="@drawable/dummy_scene"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="@string/scene"/>
+
+                <TextView
+                        android:id="@+id/consultation_reply_b"
+                        style="@style/headerText"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dummy_reply_b"
+                        />
+            </LinearLayout>
+
+            <!-- C.DD実行状況 -->
+            <TextView
+                    android:id="@+id/caption_c"
+                    style="@style/headerCaption"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/consultation_reply_c"
+                    />
+            <FrameLayout
+                    android:id="@+id/consultation_reply_c_panel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    >
+
+                <TextView
+                        android:id="@+id/consultation_reply_c"
+                        style="@style/headerText"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dummy_reply_c"
+                        />
+            </FrameLayout>
+
+            <!-- D.病気との関係 -->
+            <TextView
+                    android:id="@+id/caption_d"
+                    style="@style/headerCaption"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/consultation_reply_d"
+                    />
+
+            <LinearLayout
+                    android:id="@+id/consultation_reply_d_panel"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    >
+
+                <ImageView
+                        android:id="@+id/consultation_reply_d_scene"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:src="@drawable/dummy_scene"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="@string/scene"/>
+
+                <TextView
+                        android:id="@+id/consultation_reply_d"
+                        style="@style/headerText"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dummy_reply_b"
+                        />
+            </LinearLayout>
+
+            <!-- E.オススメDIET法 -->
+            <TextView
+                    android:id="@+id/caption_e"
+                    style="@style/headerCaption"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/consultation_reply_e"
+                    />
+
+            <LinearLayout
+                    android:id="@+id/consultation_reply_e_panel"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    >
+
+                <TextView
+                        android:id="@+id/consultation_reply_e"
+                        style="@style/headerText"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dummy_reply_e"
+                        />
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/consultation_reply_e_medal_1"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_loading_action"
+                            android:scaleType="fitCenter"
+                            android:contentDescription="@string/medal"/>
+                    <ImageView
+                            android:id="@+id/consultation_reply_e_medal_2"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_loading_action"
+                            android:scaleType="fitCenter"
+                            android:contentDescription="@string/medal"/>
+                    <ImageView
+                            android:id="@+id/consultation_reply_e_medal_3"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_loading_action"
+                            android:scaleType="fitCenter"
+                            android:contentDescription="@string/medal"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/comments_area"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+            android:id="@+id/send_layout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <EditText
+                android:id="@+id/consultation_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:lines="2"
+                android:layout_margin="8dp"
+                android:inputType="textMultiLine"/>
+        <Button
+                android:id="@+id/send_button"
+                style="@style/standardButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/send"
+                />
+    </LinearLayout>
+
+    <!--<include layout="@layout/main_fragment_footer"/>-->
+
+</LinearLayout>

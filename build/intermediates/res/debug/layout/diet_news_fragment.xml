@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <include layout="@layout/main_fragment_header"/>
+
+    <LinearLayout
+            android:id="@+id/whats_new_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+        <EditText
+                android:id="@+id/search_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:inputType="text"
+                android:hint="@string/search"
+                android:drawableLeft="@android:drawable/ic_menu_search"
+                />
+
+        <ListView
+                android:id="@+id/topic_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+    </LinearLayout>
+
+    <GridView
+            android:id="@+id/action_grid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:numColumns="4"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:background="@color/bg_root"
+            />
+
+    <LinearLayout
+            android:id="@+id/bottom_buttons"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <Button
+                android:id="@+id/whats_new_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/list"
+                />
+        <Button
+                android:id="@+id/items_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/categorized"
+                />
+    </LinearLayout>
+    <include layout="@layout/main_fragment_footer"/>
+</LinearLayout><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/diet_news_fragment.xml -->

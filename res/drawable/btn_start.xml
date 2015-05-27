@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- フォーカスを得たとき -->
+    <!--<item-->
+            <!--android:state_focused="true"-->
+            <!--android:state_enabled="true"-->
+            <!--android:state_pressed="false"-->
+            <!--android:drawable="@drawable/undo_focused" />-->
+    <!-- ボタンが無効で、かつフォーカスを得たとき -->
+    <!--<item-->
+            <!--android:state_focused="true"-->
+            <!--android:state_enabled="false"-->
+            <!--android:state_pressed="false"-->
+            <!--android:drawable="@drawable/undo_disabled_focused" />-->
+    <!-- ボタンが押されたとき -->
+    <item
+            android:state_focused="true"
+            android:state_enabled="true"
+            android:state_pressed="true"
+            android:drawable="@drawable/btn_start_pressed" />
+    <!-- ボタンが無効なとき -->
+    <!--<item-->
+            <!--android:state_enabled="false"-->
+            <!--android:drawable="@drawable/undo_disabled" />-->
+    <!-- 通常の状態 -->
+    <item
+            android:drawable="@drawable/btn_start_normal" />
+</selector>

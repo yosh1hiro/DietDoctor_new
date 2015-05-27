@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_root"
+        >
+
+    <include layout="@layout/main_fragment_header"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:visibility="gone"
+            >
+        <include layout="@layout/diet_action"/>
+    </FrameLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            >
+        <TextView
+                style="@style/headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/achievement_all_star_caption"
+                />
+        <TextView
+                android:id="@+id/star_count"
+                style="@style/achievementValue"
+                android:text="@string/dummy_star"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            >
+
+        <TextView
+                style="@style/headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/achievement_weight_diff_caption"
+                />
+        <TextView
+                android:id="@+id/weight_loss"
+                style="@style/achievementValue"
+                android:text="@string/dummy_weight_diff_1"
+                />
+        <TextView
+                style="@style/headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kg"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            >
+
+        <TextView
+                style="@style/headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/achievement_pace_caption"
+                />
+        <TextView
+                style="@style/headerText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/achievement_pace_prefix"
+                />
+        <TextView
+                android:id="@+id/pace_rate"
+                style="@style/achievementValue"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:text="@string/dummy_chart_value"
+                />
+        <TextView
+                android:id="@+id/pace_unit"
+                style="@style/headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/achievement_pace_suffix"
+                />
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/got_medal"
+            android:gravity="center_horizontal"
+            android:textSize="12pt"
+            android:textColor="@color/gold"
+            />
+
+    <ImageView
+            android:id="@+id/medal_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:src="@drawable/dummy_achievement_scene"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/medal"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+        <TextView
+                android:id="@+id/action_caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="@string/dummy_title"
+                android:textSize="9pt"
+                />
+        <TextView
+                android:id="@+id/level_caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="@string/dummy_title"
+                android:textSize="9pt"
+                />
+        <TextView
+                android:id="@+id/stage_caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="@string/dummy_title"
+                android:textSize="9pt"
+                android:textColor="@color/bronze"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <Button
+                style="@style/standardButton"
+                android:id="@+id/next_level_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/next_level"
+                android:textSize="6pt"
+                />
+        <Button
+                style="@style/standardButton"
+                android:id="@+id/change_action_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/change_action"
+                android:textSize="6pt"
+                />
+        <Button
+                style="@style/standardButton"
+                android:id="@+id/consultingButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="このレベルを継続する"
+                android:textSize="6pt"
+                />
+    </LinearLayout>
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:visibility="gone"-->
+    <!-->-->
+    <!--<include layout="@layout/main_fragment_footer"/>-->
+    <!--</FrameLayout>-->
+</LinearLayout>

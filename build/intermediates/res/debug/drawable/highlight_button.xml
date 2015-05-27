@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--押したとき-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp"/>
+            <solid android:color="@color/bg_pressed"/>
+            <padding
+                    android:top="12dp"
+                    android:left="4dp"
+                    android:right="4dp"
+                    android:bottom="12dp"
+                    />
+        </shape>
+    </item>
+
+    <!--通常の状態-->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp"/>
+            <solid android:color="@color/bg_selected"/>
+            <padding
+                    android:top="12dp"
+                    android:left="4dp"
+                    android:right="4dp"
+                    android:bottom="12dp"
+                    />
+        </shape>
+    </item>
+</selector><!-- From: file:/Users/yoshihiro/DietDoctor_new/res/drawable/highlight_button.xml -->

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_root"
+        >
+    <include layout="@layout/main_fragment_header"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <Button
+                android:id="@+id/graph_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/graph"
+                />
+        <Button
+                android:id="@+id/history_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/history"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+        <TextView
+                android:id="@+id/rank_point_prefix"
+                style="@style/actionCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rank_point_prefix"
+                />
+        <TextView
+                android:id="@+id/rank_point_text"
+                style="@style/rangingCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dummy_achievement"
+                android:textSize="8pt"
+                />
+        <TextView
+                style="@style/actionCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rank_point_suffix"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+        <TextView
+                style="@style/actionCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ranking_prefix"
+                />
+        <TextView
+                android:id="@+id/ranking_text"
+                style="@style/rangingCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dummy_achievement"
+                />
+        <TextView
+                android:id="@+id/ranking_suffix"
+                style="@style/actionCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ranking_suffix"
+                />
+    </LinearLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            >
+
+        <jp.health_gate.DietDoctor.information.RankingView
+                android:id="@+id/ranking_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+    </FrameLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <Button
+                android:id="@+id/star_button"
+                style="@style/selectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/achievement_star_caption"
+                />
+
+        <Button
+                android:id="@+id/diff_button"
+                style="@style/selectButton"
+                android:background="@drawable/locked_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/weight_diff"
+                />
+        <Button
+                android:id="@+id/bmi_button"
+                style="@style/selectButton"
+                android:background="@drawable/locked_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bmi"
+                />
+    </LinearLayout>
+
+    <include layout="@layout/main_fragment_footer"/>
+</LinearLayout>
+<!-- From: file:/Users/yoshihiro/DietDoctor_new/res/layout/ranking_fragment.xml -->
